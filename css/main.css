@@ -3,6 +3,8 @@ header {
   height: 8.8rem;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  background: linear-gradient(89deg, #000205 -10.97%, #000205 116.69%);
 }
 
 .container {
@@ -26,6 +28,7 @@ header nav ul li a {
   font-size: 1.6rem;
   color: var(--gray-100);
   letter-spacing: -0.48px;
+  transition: opacity 0.3s ease;
 }
 
 header nav ul li a:hover {
