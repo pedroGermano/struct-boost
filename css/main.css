@@ -254,3 +254,27 @@ footer .copy {
   color: var(--gray-600);
   letter-spacing: -0.48px;
 }
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  header .btn-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 560px) {
+  header {
+    height: 7.2rem;
+  }
+  header .logo {
+    max-width: 16rem;
+  }
+}
